@@ -1,0 +1,18 @@
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
+.g1i2 {
+  background-image: url('../assets/images/g1i2.jpg');
+  background-size: cover;
+}
+
+.g2i1 {
+  background-image: url('../assets/images/g2i1.jpg');
+  background-size: cover;
+}
+
+.g2i6 {
+  background-image: url('../assets/images/g2i6.jpg');
+  background-size: cover;
+}
