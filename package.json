@@ -1,7 +1,7 @@
 {
-  "name": "tailwind-starter",
+  "name": "y",
   "version": "1.0.0",
-  "description": "",
+  "description": "I cloned this website: [gold.ac.uk](https://www.gold.ac.uk/)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
