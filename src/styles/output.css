@@ -1160,6 +1160,10 @@ video {
     padding-right: 1.25rem;
   }
 
+  .sm\:pl-3 {
+    padding-left: 0.75rem;
+  }
+
   .sm\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
@@ -1319,6 +1323,10 @@ video {
 
   .lg\:pl-32 {
     padding-left: 8rem;
+  }
+
+  .lg\:pl-10 {
+    padding-left: 2.5rem;
   }
 
   .lg\:text-6xl {
