@@ -1193,6 +1193,14 @@ video {
     height: 3rem;
   }
 
+  .sm\:h-\[500px\] {
+    height: 500px;
+  }
+
+  .sm\:h-5 {
+    height: 1.25rem;
+  }
+
   .sm\:auto-cols-fr {
     grid-auto-columns: minmax(0, 1fr);
   }
@@ -1261,6 +1269,10 @@ video {
 
   .sm\:auto-rows-\[400px\] {
     grid-auto-rows: 400px;
+  }
+
+  .sm\:auto-rows-auto {
+    grid-auto-rows: auto;
   }
 
   .sm\:grid-cols-1 {
@@ -1389,6 +1401,10 @@ video {
     height: auto;
   }
 
+  .lg\:h-\[200px\] {
+    height: 200px;
+  }
+
   .lg\:auto-cols-\[25\%\] {
     grid-auto-columns: 25%;
   }
@@ -1397,8 +1413,16 @@ video {
     grid-auto-rows: 350px;
   }
 
+  .lg\:auto-rows-auto {
+    grid-auto-rows: auto;
+  }
+
   .lg\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .lg\:justify-between {
@@ -1412,6 +1436,11 @@ video {
   .lg\:gap-x-3 {
     -moz-column-gap: 0.75rem;
          column-gap: 0.75rem;
+  }
+
+  .lg\:gap-x-5 {
+    -moz-column-gap: 1.25rem;
+         column-gap: 1.25rem;
   }
 
   .lg\:space-y-5 > :not([hidden]) ~ :not([hidden]) {
